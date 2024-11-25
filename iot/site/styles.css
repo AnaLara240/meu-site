@@ -1,0 +1,49 @@
+body{
+    font-family:Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th{
+    color: white;
+}
+
+
+
+tr:nth-child(even){
+background-color: #f2f2f2;
+}
+
+.areas {
+    background-color: rgba(255, 108, 194, 0.795);
+}
+
+.ch {
+    background-color: rgb(247, 127, 127);
+}
+
+.cn{
+    background-color: rgb(149, 228, 149);
+}
+
+.lg{
+    background-color: rgb(92, 169, 233);
+}
+
+.mat{
+    background-color: rgb(228, 188, 115);
+}
+
+.tc{
+    background-color: rgb(169, 95, 184);
+}

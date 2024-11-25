@@ -1,0 +1,40 @@
+/* Estilos customizados */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #007bff; /* Cor do cabeçalho */
+}
+
+nav a {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/* Personalização das imagens */
+.foto {
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #343a40; /* Cor do rodapé */
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    #introducao h1, #introducao h2 {
+        font-size: 1.5rem;
+    }
+}
+
+  

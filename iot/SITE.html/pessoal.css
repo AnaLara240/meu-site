@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+header {
+    background-color: #ffbfea;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+}
+ 
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+ 
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+ 
+header nav ul li a {
+    color: rgb(63, 56, 56);
+    text-decoration: none;
+    font-size: 18px;
+}
+ 
+/* Estilo do conteúdo */
+main {
+    padding: 20px;
+    text-align: center;
+}
+ 
+h1 {
+    font-size: 36px;
+}
+ 
+footer {
+    background-color: #000000;
+    color: rgb(255, 175, 228);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

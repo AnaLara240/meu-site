@@ -1,0 +1,66 @@
+/* Definições gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+header {
+    background-color: #ff71c4;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+}
+ 
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+ 
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+ 
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+ 
+/* Estilo do conteúdo */
+main {
+    padding: 20px;
+    text-align: center;
+}
+ 
+h1 {
+    font-size: 36px;
+}
+ 
+footer {
+    background-color: #ff71c4;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+    /* Estilo para o container da foto */
+    .foto-container {
+        margin: 20px 0; /* Espaçamento em cima e embaixo */
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center; /* Alinha a imagem verticalmente */
+        border-radius: 50%;
+    }
+
+    /* Estilo da foto (imagem) */
+    .foto {
+        width: 300px; /* Largura da imagem */
+        height: 300px; /* Altura da imagem */
+        border-radius: 50%; /* Deixa a imagem redonda */
+        object-fit: cover; /* Faz a imagem cobrir o espaço da caixa sem distorcer */
+        border: 5px solid #f6a5c0; /* Borda suave ao redor da imagem */
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Sombra ao redor da imagem */
+    }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Exemplo</title>
+    <style>
+        #paragrafo {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <p id="paragrafo">Este é um parágrafo que pode ser ocultado ou mostrado.</p>
+    <button onclick="ocultar()">Ocultar</button>
+    <button onclick="mostrar()">Mostrar</button>
+
+    <h2>Imagem de uma Criança</h2>
+    <img id="imagem" src="crianca.jpg" alt="Criança" width="200">
+    <button onclick="trocarImagem()">Crescer</button>
+
+    <script>
+        // Função para ocultar o parágrafo
+        function ocultar() {
+            document.getElementById("paragrafo").style.display = "none"; // Altera o display do parágrafo para 'none'
+        }
+
+        // Função para mostrar o parágrafo
+        function mostrar() {
+            document.getElementById("paragrafo").style.display = "block"; // Altera o display do parágrafo para 'block'
+        }
+
+        // Função para trocar a imagem
+        function trocarImagem() {
+            document.getElementById("imagem").src = "adulto.jpg"; // Troca a fonte da imagem
+            console.log("Imagem trocada com sucesso!"); // Log no console
+        }
+    </script>
+
+</body>
+</html>

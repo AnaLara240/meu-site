@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #ff71c4;
+  color: white;
+  padding: 10px 0;
+}
+
+header nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Estilo do conteúdo */
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+footer {
+  background-color: #ff71c4;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  margin-top: 300px;
+}
+/* Classe para a primeira imagem do carrinho */
+.IOTFOTO,
+.iotfoto2,
+.bonefoto1,
+.bonefoto2 {
+  border-radius: 50%; /* Faz a imagem circular */
+  width: 160px; /* Define o tamanho da imagem */
+  height: 160px; /* Define o tamanho da imagem */
+  object-fit: cover; /* Faz com que a imagem se ajuste ao tamanho sem distorcer */
+  margin: 10px; /* Espaçamento entre as imagens */
+}
+
+/* Caso você queira estilizar cada imagem separadamente */
+.IOTFOTO {
+  border: 10px solid #ff7bcc; /* Exemplo de borda azul para a imagem do carrinho */
+}
+
+.iotfoto2 {
+  border: 10px solid #ff7bcc; /* Exemplo de borda vermelha para a segunda imagem do carrinho */
+}
+
+.bonefoto1 {
+  border: 10px solid #ff7bcc; /* Exemplo de borda verde para a primeira imagem do boné */
+}
+
+.bonefoto2 {
+  border: 10px solid #ff7bcc; /* Exemplo de borda roxa para a segunda imagem do boné */
+}
+
+/* Se as imagens estiverem em linha e você quiser que fiquem alinhadas de forma agradável */
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

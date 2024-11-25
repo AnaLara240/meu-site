@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+header {
+    background-color: #ff71c4;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+}
+ 
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+ 
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+ 
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+ 
+/* Estilo do conteúdo */
+main {
+    padding: 20px;
+    text-align: center;
+}
+ 
+h1 {
+    font-size: 36px;
+}
+ 
+footer {
+    background-color: #ff71c4;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin-top: 200px;
+}
+/* Estilizando a tabela */
+.tabela {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilizando as células da tabela */
+  .tabela td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  /* Estilizando o link dentro da tabela */
+  .tabela a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 8px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+/* Centralizando as imagens e definindo o formato oval */
+.foto-container {
+    margin: 200px 0; /* Espaçamento em cima e embaixo */
+    display: flex; /* Usando flexbox para centralizar a imagem */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Alinha verticalmente */
+}
+
+/* Estilo das imagens */
+img {
+    width: 250px; /* Largura das imagens */
+    height: 150px; /* Altura das imagens (formato oval) */
+    border-radius: 50%; /* Tornando as imagens ovais */
+    object-fit: cover; /* Faz a imagem cobrir o espaço da caixa sem distorcer */
+    border: 5px solid #f6a5c0; /* Borda suave ao redor da imagem */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Sombra ao redor da imagem */
+}
+
+/* Estilo específico para a classe cnt (Ciências da Natureza) */
+.cnt {
+    border: 50px solid #4CAF50; /* Cor verde para Ciências da Natureza */
+}
+
+/* Estilo específico para a classe chs (Ciências Humanas) */
+.chs {
+    border: 50px solid #FF5722; /* Cor laranja para Ciências Humanas */
+}
+
+/* Estilo específico para a classe linguagens */
+.linguagens {
+    border: 50px solid #3F51B5; /* Cor azul para Linguagens */
+}
+
+/* Estilo específico para a classe matematica */
+.matematica {
+    border: 50px solid #FFC107; /* Cor amarela para Matemática */
+}
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Estilo das tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td {
+    background-color: #fafafa;
+}
+
+/* Estilos para cada área */
+.ch {
+    background-color: #d0f0c0; /* Verde claro para Ciências Humanas */
+}
+
+.cn {
+    background-color: #cce7ff; /* Azul claro para Ciências da Natureza */
+}
+
+.mat {
+    background-color: #f9e6b7; /* Amarelo claro para Matemática */
+}
+
+.lg {
+    background-color: #f5c6cb; /* Rosa claro para Linguagens */
+}
+
+.tc {
+    background-color: #d4edda; /* Verde claro para IOT */
+}
+
+/* Estilos para o título das tabelas */
+h1 {
+    text-align: center;
+}
+
+/* Botão para alternar a tabela */
+.toggle-button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.toggle-button:hover {
+    background-color: #45a049;
+}
+
+.texto-final {
+    margin-bottom: 80px;
+}
