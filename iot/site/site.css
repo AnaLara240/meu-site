@@ -42,7 +42,7 @@ footer {
     background-color: #ff71c4;
     color: rgb(0, 0, 0);
     text-align: center;
-    padding: 10px;
+    padding: 1,5px;
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -58,9 +58,15 @@ footer {
     /* Estilo da foto (imagem) */
     .foto {
         width: 300px; /* Largura da imagem */
-        height: 300px; /* Altura da imagem */
-        border-radius: 50%; /* Deixa a imagem redonda */
+        height: 200px; /* Altura da imagem */
+        border-radius: 30%; /* Deixa a imagem redonda */
         object-fit: cover; /* Faz a imagem cobrir o espaço da caixa sem distorcer */
         border: 5px solid #f6a5c0; /* Borda suave ao redor da imagem */
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Sombra ao redor da imagem */
     }
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
